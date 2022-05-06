@@ -27,14 +27,13 @@ public class Main {
 
             if (ir == sr) {
                 System.out.println("You guessed right!");
+                System.exit(0);
                 break;
-            } else if (ir < sr){
-                System.out.println("You're wrong. Hint: chose a greater number.");
-            } else {
-                System.out.println("You're wrong. Hint: chose a smaller number. ");
-            }
-            if (i == r - 1) {
+            } else if (i == r - 1){
                 System.out.println("You're out of tries... The number was " + sr);
+                System.exit(0);
+            } else {
+                System.out.println("You're wrong. Try again. ");
             }
         }
 
