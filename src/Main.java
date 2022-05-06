@@ -11,7 +11,7 @@ public class Main {
         int i;
         int sr;
 
-        System.out.println("GUESS THE NUMBER.Enter the number of tries:");
+        System.out.println("GUESS THE NUMBER. Enter the number of tries:");
         r = sc.nextInt();
         System.out.println("Enter the lower bound of number ");
         int lower = sc.nextInt();
@@ -29,9 +29,9 @@ public class Main {
                 System.out.println("You guessed right!");
                 break;
             } else if (ir < sr){
-                System.out.println("You're wrong. Hint: chose a greater number.");
+                System.out.println("You're wrong. Hint: choose a greater number.");
             } else {
-                System.out.println("You're wrong. Hint: chose a smaller number. ");
+                System.out.println("You're wrong. Hint: ch0ose a smaller number. ");
             }
             if (i == r - 1) {
                 System.out.println("You're out of tries... The number was " + sr);
