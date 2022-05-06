@@ -11,7 +11,7 @@ public class Main {
         int i;
         int sr;
 
-        System.out.println("GUESS THE NUMBER. Enter the number of tries:");
+        System.out.println("GUESS THE NUMBER 333222. Enter the number of tries:");
         r = sc.nextInt();
         System.out.println("Enter the lower bound of number ");
         int lower = sc.nextInt();
